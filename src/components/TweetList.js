@@ -8,7 +8,8 @@ const TweetList = ({name, tweets, setTweets}) => {
             setTweets={setTweets}
              name={name} 
              tweet={tweet} 
-             tweets={tweets} />
+             tweets={tweets}
+             key={tweet.id} />
              ))}
         </div>
 
