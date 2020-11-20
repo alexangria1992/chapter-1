@@ -5,6 +5,7 @@ const Tweet = ({name, tweet, tweets, setTweets}) => {
         console.log(tweet.id)
        setTweets(tweets.filter((state) => state.id !== tweet.id ))
     }
+
     return(
         <TweetStyle>
             <h2>{name}</h2>
